@@ -9,7 +9,7 @@ async function seed() {
 
     const post1 = await prisma.post.create({
         data: {
-            body: "Welocome to Re Late. A website where our motto is For the students.",
+            body: "Welocome to Re-Late. A website where our motto is For the students.",
             title: "Re-Late First Post",
         },
     })
@@ -24,6 +24,20 @@ async function seed() {
         data: {
             body: "This is a post from one of the webpage builders, Yanice.",
             title: "Yanice's Post",
+        },
+    })
+
+    const post4 = await prisma.post.create({
+        data: {
+            body: "This is a post from one of the webpage builders, Nouran.",
+            title: "Nouran's Post",
+        },
+    })
+
+    const post5 = await prisma.post.create({
+        data: {
+            body: "This is a post from one of the webpage builders, Irbahim.",
+            title: "Ibrahim's Post",
         },
     })
 
