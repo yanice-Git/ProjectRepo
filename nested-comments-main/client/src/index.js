@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles.css';
-import App from './App';
+import Homepage from './Homepage';
 import { BrowserRouter } from "react-router-dom"
 import { Header } from "./siteTools/header"
 import { Footer } from "./siteTools/footer"
@@ -21,7 +21,7 @@ root.render(
     <div style={styles}>
       <BrowserRouter>
         <Header />
-        <App />
+        <Homepage />
         <Footer />
       </BrowserRouter>
     </div>

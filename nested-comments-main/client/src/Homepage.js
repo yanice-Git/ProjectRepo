@@ -5,7 +5,7 @@ import { PostProvider } from "./contexts/PostContext"
 
 
 
-function App() {
+function Homepage() {
   return (
     <div className="container">
       <Routes>
@@ -23,4 +23,4 @@ function App() {
   )
 }
 
-export default App
+export default Homepage
